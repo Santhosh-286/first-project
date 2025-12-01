@@ -184,6 +184,7 @@ nav header .btn button:hover {
   display: none;
   padding: 0 25px;
   line-height: 42px;
+  z-index:999;
 }
 .side li {
   list-style: none;
@@ -4138,3 +4139,4 @@ form .sec-1 button {
     padding: 100px 20px;
   }
 }
+
