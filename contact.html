@@ -32,24 +32,42 @@
     </div>
 
     <nav>
-        <header>
-            <div class="logo">
-                <img src="./logo.webp" alt="logo">
-            </div>
-            <div class="menu">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./contact.html">Services</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="./products.html">Products</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="btn">
-                <button>Schedule Now</button>
-            </div>
-        </header>
+      <header>
+        <div class="logo">
+          <img src="./logo.webp" alt="logo" />
+        </div>
+        <div class="menu">
+          <li class="main">
+            <a href="./index.html">Home</a>
+            <ul class="dropdown">
+              <li><a href="./index.html"></a>Home1</li>
+              <li><a href="./index.html"></a>Home2</li>
+              <li><a href="./index.html"></a>Home3</li>
+            </ul>
+          </li>
+
+          <li><a href="./service.html">Services</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./products.html">Products</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <i class="fa-solid fa-bars" onclick="add()"></i>
+        </div>
+        <div class="btn">
+          <button>Schedule Now</button>
+        </div>
+        <div class="side" id="side">
+          <i class="fa-solid fa-x" onclick="add2()"></i>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./service.html">Services</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./products.html">Products</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </div>
+      </header>
     </nav>
 
     <div class="contact-banner">
@@ -177,5 +195,6 @@
         </div>
     </div>
 </body>
+
 
 </html>
